@@ -1,0 +1,15 @@
+#! /usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	make -C /lib/modules/$(shell uname -r)/build M=$(CURDIR) modules
+
+override_dh_auto_clean:
+	make -C /lib/modules/$(shell uname -r)/build M=$(CURDIR) clean
+
+override_dh_auto_install:
+	mkdir -p debian/helloworldLKM/lib/modules/$(shell uname -r)/extra
+	cp helloworldLKM.ko debian/helloworldLKM/lib/modules/$(shell uname -r)/extra/
+

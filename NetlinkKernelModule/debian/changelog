@@ -1,0 +1,20 @@
+hellonetlink (1.0-3) UNRELEASED; urgency=high
+
+  * Updated the hello_world_init_module function to fix a logging bug.
+  * Added comments to improve code clarity.
+  * just a test
+
+ -- caio felipe soares da cruz  <caio-cruz@ENCSABCAMLT0872>  Mon, 09 Dec 2024 13:47:37 -0400
+
+hellonetlink (1.0-1) unstable; urgency=medium
+
+  * Initial release of the Hello World LKM.
+
+ -- Your Name <your.email@example.com>  Thu, 09 Dec 2024 12:00:00 +0000
+
+
+hellonetlink (1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- caio felipe soares da cruz  <caio-cruz@ENCSABCAMLT0872>  Mon, 09 Dec 2024 13:13:49 -0400

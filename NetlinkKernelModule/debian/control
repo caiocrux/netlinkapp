@@ -1,0 +1,14 @@
+Source: hellonetlink
+Section: kernel
+Priority: optional
+Maintainer: Your Name <your.email@example.com>
+Build-Depends: debhelper-compat (= 12), linux-headers
+Standards-Version: 4.5.1
+Homepage: https://csepracticals.wixsite.com/csepracticals
+
+Package: hellonetlink
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hello World Linux Kernel Module
+ A simple Linux Kernel Module for demonstration purposes.
+
